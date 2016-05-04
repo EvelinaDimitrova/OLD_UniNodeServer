@@ -24,13 +24,13 @@ router.get('/:imageName', function(req, res, next) {
 
 });
 
-router.get('/', function(req, res, next) {
-
-	res.set('Content-Type', 'image/jpg');
-	res.sendFile('test1.jpg', {
-		root : 'D:\\Images'
-	});
-
-});
+//router.get('/', function(req, res, next) {
+//
+//	res.set('Content-Type', 'image/jpg');
+//	res.sendFile('test1.jpg', {
+//		root : 'D:\\Images'
+//	});
+//
+//});
 
 module.exports = router;
